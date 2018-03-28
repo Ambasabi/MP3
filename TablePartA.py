@@ -9,7 +9,7 @@ powers = {
     'custom': dict()
 }
 
-conn.create_table('Powers', powers)
+conn.create_table('powers', powers)
 print('Created table Powers')
 
 food = {
@@ -18,7 +18,7 @@ food = {
     'taste': dict()
 }
 
-conn.create_table('Food', food)
+conn.create_table('food', food)
 print('Created table Food')
 
 conn.close()
