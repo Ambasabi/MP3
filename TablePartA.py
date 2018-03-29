@@ -10,7 +10,6 @@ powers = {
 }
 
 conn.create_table('powers', powers)
-print('Created powers')
 
 food = {
     'row key': dict(),
@@ -19,6 +18,5 @@ food = {
 }
 
 conn.create_table('food', food)
-print('Created food')
 
 conn.close()
