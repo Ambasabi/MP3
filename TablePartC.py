@@ -28,16 +28,7 @@ csvreader, csvfile = read_csv()
 for row in csvreader:
     insert_row(table, row)
 
-
-# data = {
-#     b'personal:name': b'Raju',
-#     b'personal:city': b'Hyderabad',
-#     b'professional:designation': b'Manager',
-#     b'professional:salary': b'50000'
-# }
-#
-# table.put(b'row1', data)
-
 print('Inserted data')
 
+csvfile.close()
 conn.close()
