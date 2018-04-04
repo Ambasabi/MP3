@@ -11,7 +11,7 @@ name = row[b'professional:name']
 xp = row[b'professional:xp']
 color = row[b'custom:color']
 
-print('hero: {} power: {} name: {} xp: {}, color: {}'.format(hero, power, name, xp, color))
+print('hero: {}, power: {}, name: {}, xp: {}, color: {}'.format(hero, power, name, xp, color))
 
 row = table.row(b'row19')
 hero = row[b'personal:hero']
