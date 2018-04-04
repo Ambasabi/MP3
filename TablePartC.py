@@ -14,7 +14,6 @@ def read_csv():
 
 def insert_row(table, row):
     data = {
-        b'row key': row[0],
         b'personal:hero': row[1],
         b'personal:power': row[2],
         b'professional:name': row[3],
